@@ -12,8 +12,9 @@ console.log("*******************");
   );
   var choice = readlineSync.questionInt("Enter your Choice  :  ");
   axios
+    // Add your AP[I] key here IN LAST PARAMETER
     .get(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=a19b7eca3271e89ba945e31e43c2aac4`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city_name}${process.env.API_KEY}`
     )
     .then((res) => {
       var data = res.data;

@@ -3,7 +3,7 @@ import readline from "readline-sync";
 
 axios
   .get(
-    `https://api.openweathermap.org/data/2.5/weather?=delhi&appid=2ab550f885d86788105fd24fd8c985cd`
+    `https://api.openweathermap.org/data/2.5/weather?=delhi&appid=`
   )
   .then((res) => {
     console.log(res);
