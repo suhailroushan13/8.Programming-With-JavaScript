@@ -1,0 +1,19 @@
+{
+  "name": "base64",
+  "version": "1.0.0",
+  "description": "Encode and Decode",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "encode",
+    "decode"
+  ],
+  "author": "Suhail Roushan",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
